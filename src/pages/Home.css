@@ -1,0 +1,94 @@
+.hero-section{
+    margin: 20px;
+    min-height: 420px;
+    border-radius: 18px;
+    background-image: url("/images/hero-banner-3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.hero-content{
+    max-width: 500px;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span{
+    color: cyan;
+}
+
+.hero-content p{
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.shop-btn{
+    background-color: cyan;
+    color: white;
+    border: 1px solid rgb(20, 151, 151);
+    padding: 12px 24px;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.shop-btn:hover{
+    background-color: rgb(20, 151, 151);
+}
+
+.deal-btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(20, 151, 151);
+    padding: 12px 24px;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.deal-btn:hover{
+    background-color: rgb(20, 151, 151);
+}
+
+.hero-benefits{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-top: 35px;
+}
+
+.benefit-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.benefit-item img{
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.benefit-item p{
+    margin: 0;
+    color: white;
+    font-size: 13px;
+    font-weight: 600px;
+    white-space: nowrap;
+}
