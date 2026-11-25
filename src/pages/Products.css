@@ -1,0 +1,158 @@
+.products-page{
+    width: 100%;
+    padding: 20px;
+}
+
+.products-banner{
+    width: calc(100% - 32px);
+    height: 180px;
+    margin: 20px 16px 0;
+    background-image: url("/images/product-banner-responsive.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Banner Content */
+.banner-content{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Heading */
+.banner-content h1{
+    margin: 0 0 8px;
+    font-size: 38px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #102a43;
+}
+
+.banner-content h1 span{
+    color: #009f99;
+}
+
+/* Description */
+.banner-content p{
+    margin: 0;
+    font-size: 14px;
+    line-height:1.4;
+    color: #526d82;
+}
+
+.banner-content::after{
+    content: "";
+    width: 25px;
+    height: 3px;
+    margin-top: 9px;
+    background: #16a6a0;
+    border-radius: 5px;
+}
+
+/* Sidebar css */
+.products-content{
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+    margin: 30px 26px 30px;
+    align-items: start;
+}
+
+.filter-sidebar{
+    width: 220px;
+    border: 1px solid #bcbfc2;
+    border-radius: 10px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+/* First div css FILTER TITLE */
+.filter-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 18px;
+    /* border-bottom: 1px solid #e5e7eb; */
+}
+
+.filter-title h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #172b4d;
+}
+
+.filter-title button{
+    border: none;
+    background: transparent;
+    color: #009f99;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Second div css FILTER GROUP */
+.filter-group{
+    padding: 14px 18px;
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.filter-group h4 {
+  margin: 0 0 14px;
+
+
+  font-size: 15px;
+  font-weight: 700;
+
+
+  color: #172b4d;
+}
+
+.filter-group label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+    cursor: pointer;
+}
+
+.filter-group label:last-child{
+    margin-bottom: 0;
+}
+
+.filter-group input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    accent-color: #009f99;
+    cursor: pointer;
+}
+
+/* Third div css PRICE RANGE */
+.filter-group input[type="range"]{
+    width: 100%;
+    accent-color: #009f99;
+    cursor: pointer;
+}
+
+.price-range{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+}
+
+/* End of sidebar */
