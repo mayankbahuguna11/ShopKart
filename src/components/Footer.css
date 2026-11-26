@@ -1,0 +1,23 @@
+.site-footer {
+    padding: 0;
+    background: #021827;
+    color: #fff;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+/* main-footer */
+
+.footer-main {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 3%;
+    display: grid;
+    grid-template-columns: 
+    1.45fr
+    0.9fr
+    1fr
+    1fr
+    1.45fr;
+    column-gap: 35px;
+    align-items: start;
+}
